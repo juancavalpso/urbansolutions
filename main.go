@@ -7,6 +7,6 @@ import (
 
 func main() {
 	fmt.Println("hola")
-	strF := configu.Msg("fff")
-	fmt.Println(strF)
+	//strF := paquet.M
+	//fmt.Println(strF)
 }

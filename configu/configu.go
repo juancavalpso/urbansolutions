@@ -1,5 +1,3 @@
-package configu
+package paquet
 
-func Msj() string {
-	return "hola sssss"
-}
+var M = "hola la la "
