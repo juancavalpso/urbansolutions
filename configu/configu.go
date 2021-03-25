@@ -1,5 +1,5 @@
 package configu
 
-func Msj(n string) string {
-	return "hola " + n
+func Msj() string {
+	return "hola sssss"
 }

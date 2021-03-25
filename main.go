@@ -7,5 +7,6 @@ import (
 
 func main() {
 	fmt.Println("hola")
-	fmt.Println(Msg("juan"))
+	strF := configu.Msg("fff")
+	fmt.Println(strF)
 }
