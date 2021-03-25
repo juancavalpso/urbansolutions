@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/juancavalpso/urbansolutions/configu"
+	configu "github.com/juancavalpso/urbansolutions/configu"
 )
 
 func main() {
 	fmt.Println("hola")
-	fmt.Println(configu.Msg("juan "))
+	fmt.Println(configu.Msg("juan"))
 }
