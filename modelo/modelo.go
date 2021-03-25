@@ -2,12 +2,10 @@ package modelo
 
 import (
 	"crypto/tls"
-	"io/ioutil"
-	"net"
-	"net/http"
-
+	"go.mongodb.org/mongo-driver/bson/primitive"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
+	"net"
 )
 
 type MyEntity struct {
@@ -23,7 +21,7 @@ type Materiales struct {
 
 var mongoConn *mgo.Session
 
-func (){
+func init() {
 	var err error
 	mongoConn, err = createConnection()
 	if err != nil {
@@ -48,12 +46,12 @@ func createConnection() (*mgo.Session, error) {
 	return mgo.DialWithInfo(&dialInfo)
 }
 
-func GetOutil() Materiales{
+func GetOutil() Materiales {
 	session := mongoConn.Copy()
 	defer session.Close()
 
 	materiales := Materiales{}
-	err := session.DB("testeando").C("materiales").Find(bson.M{}).One(&entity)
+	err := session.DB("testeando").C("materiales").Find(bson.M{})
 	if err != nil {
 		panic(err)
 	}
@@ -75,4 +73,3 @@ func GetOutil() Materiales{
 // 		panic(err)
 // 	}
 // }
-

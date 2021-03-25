@@ -9,17 +9,16 @@ Marz 2021
 ## comandos git, go
 * agregar
 > git add *
-* despues de eliminar archivos o carpetas 
-> git rm $(git ls-files --deleted)
-* actualizar repositorio
-> git commit -m 'commentaire xxx commit'
+> git commit -m 'xxx '
 > git push
-* limpiar la cache de los eventos go
+
+> git rm $(git ls-files --deleted)
 > go clean -modcache
-* elimina de las dependencias en cache de go/pkg 
 > go clean -cache -modcache -i -r
+
 * actualiza go.mod y go.sum
 > go get -u
+
 * actualiza packete a la ultima version
 > go get -u github.com/juancavalpso/urbansolutions/ <package>
 
