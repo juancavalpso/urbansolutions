@@ -1,3 +1,3 @@
-module github.com/juancavalpso/urbansolutions/config
+module github.com/juancavalpso/urbansolutions/configu
 
 go 1.15
