@@ -7,6 +7,7 @@ import (
 
 func main() {
 	fmt.Println("hola")
-	//strF := paquet.M
-	//fmt.Println(strF)
+	strF := paquet.M
+	fmt.Println(strF)
+	fmt.Println(paquet.Mensaje("import tt 1"))
 }
