@@ -48,7 +48,7 @@ func createConnection() (*mgo.Session, error) {
 	return mgo.DialWithInfo(&dialInfo)
 }
 
-func getOutil() MyEntity{
+func GetOutil() Materiales{
 	session := mongoConn.Copy()
 	defer session.Close()
 

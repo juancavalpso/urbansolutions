@@ -10,5 +10,7 @@ github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325173951-570f453e33c
 github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325173951-570f453e33c7/go.mod h1:Wi6My6JN8//Wez566TxqaVwkW4SfZrFyZsFBziwM5MQ=
 github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325183131-34a1f33b977a h1:eRjQhbFGSOhFoLY4++QghJCPZzA1OHxkBGq90CPxdjo=
 github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325183131-34a1f33b977a/go.mod h1:Wi6My6JN8//Wez566TxqaVwkW4SfZrFyZsFBziwM5MQ=
+github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325193532-76ae697428c9 h1:nF3RLugnAg/4XncQy7VzHiaKVfNAnxI7SFvkFPEVacg=
+github.com/juancavalpso/urbansolutions/configu v0.0.0-20210325193532-76ae697428c9/go.mod h1:Wi6My6JN8//Wez566TxqaVwkW4SfZrFyZsFBziwM5MQ=
 github.com/juancavalpso/urbansolutions/modelo v0.0.0-20210325193532-76ae697428c9 h1:a7UTekKwhpFIESKg5okkbh0VHL9jYQFIS9nSZ4UuhEM=
 github.com/juancavalpso/urbansolutions/modelo v0.0.0-20210325193532-76ae697428c9/go.mod h1:qYWYo4ms90tHuyPp02z5lV7W8hnji7E5REHb023jeJU=

@@ -21,6 +21,9 @@ func main() {
 }
 
 func get(w http.ResponseWriter, req *http.Request) {
-	entity := modelo.MyEntity{}
+	//entity := modelo.MyEntity{}
+	//w.Write(entity.Data)
+
+	entity := modelo.GetOutil()
 	w.Write(entity.Data)
 }

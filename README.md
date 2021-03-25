@@ -21,7 +21,7 @@ Marz 2021
 * actualiza go.mod y go.sum
 > go get -u
 * actualiza packete a la ultima version
-> go get -u example.com/pkg
+> go get -u github.com/juancavalpso/urbansolutions/ <package>
 
 # go + 
 > go mod init
