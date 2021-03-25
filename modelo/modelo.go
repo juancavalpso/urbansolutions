@@ -21,7 +21,7 @@ type Materiales struct {
 
 var mongoConn *mgo.Session
 
-func init() {
+func Init() {
 	var err error
 	mongoConn, err = createConnection()
 	if err != nil {
